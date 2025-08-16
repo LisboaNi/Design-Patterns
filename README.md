@@ -140,3 +140,14 @@ Sistema de intermediario entre o solicitante (Faz a requição) e o provedor (Re
 Oferece um subtitulo para outro objteo a fim de controlar o acesso **vs** Oferece uma interface de subsistemas 
 Um objeto Proxy tem a mesma interface e aramazena referências **vs** Minimiza a comunicaçã e as dependências entre subsistemas
 Atua como intermédiario entre cliente e o objeto encapsulado **vs** Oferece uma interface única e simplificada
+
+# Observer 
+
+- Padrões Comportamentais 
+
+Um objeto mantém uma lista de dependencias de modo qye este objeto possa notificar todos os dependentes acerca de mudanças pelas quais ela passa usando qualquer um dos métodos definidos pelo objeto.
+
+### Modelos
+
+- **Pull**: Envolve o priemiro passo obter os dados e notificar e o segundo o observador obter os dados necessários.
+- **Push**: Sempre está enviando, adequado somente os dados necessarios é enviado.
