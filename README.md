@@ -65,3 +65,9 @@ Em resumo:
 Ex.: Logging (Log), Operações de BD e Spoolers de impressão
 
 **Objetivo:** Evitar requesições conflitantes para o mesmo recurso.
+
+### Desvantagens
+
+- Variáveis globais podem ser alteradas por engano;
+- Variáveis referênica podem ser criadas para o mesmo objeto;
+- Classe que são dependente da variavel global de modo que exercer um impacto inesperado.
