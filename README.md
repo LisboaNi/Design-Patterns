@@ -71,3 +71,33 @@ Ex.: Logging (Log), Operações de BD e Spoolers de impressão
 - Variáveis globais podem ser alteradas por engano;
 - Variáveis referênica podem ser criadas para o mesmo objeto;
 - Classe que são dependente da variavel global de modo que exercer um impacto inesperado.
+
+# Factory
+
+- Padrão de Criação
+
+### Utiliza
+
+Em resumo:
+
+É uma fábrica de objetos, refere-se um classe responsável por criar objetos de outros tipos. O cliente chama esse método com determinados parâmetros e retornar paar ele.
+
+### Tipos
+
+- **Simple Factory:** Permite que as interfaces criem objetos sem expor a lógica de sua criação;
+- **Factory Method:** Permite que as interfaces criem objetos, mas adia a decisão para que as subclasses determinem a classe para a criação do objeto;
+- **Abstract Factory:** Interface para criar objteros relacionados sem especificar/expor suas classes.
+
+### Factory Method
+
+- Flexibilidade;
+- Baixo aclopamento;
+
+### Factoty Method / Abstract Factory
+
+Expõe um metodo ao cliente para ciar objetos **vs** Contém um ou mais metodos de fabrica para criar uma familia de objetos relacionado.
+<br>
+Usa herança e subclasses para definir o objeto a ser criado **vs** Usa composição para deletar  aresponsabilidade de criar objetos de outra classe.
+<br>
+Usado para criar um produto **vs** Usado para criar famílias de produtos relacionados.
+
