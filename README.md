@@ -114,3 +114,29 @@ Descrevem como objetos e classes podem ser combinados para compor estrturas maio
 - **Padrão Decorator:** Define responsabilidades adicionais para um objeto em tempo de execução;
 - **Padrão Facade:** Oculta as compelixidades da estrtura interna de um objeto oferecendo uma interface ao cliente que ele possa acessar o sistema de forma simplificada.
 
+# Proxy
+
+- Padrão de Estruturais
+
+Sistema de intermediario entre o solicitante (Faz a requição) e o provedor (Retorna a requisição).
+
+- Uma classe que atua como um interface para objetos reais. (Serve como encapsulamento)
+
+### Tipos de Proxy
+
+- **Proxy Virtual:** Funciona como um "Placeholder" que são muito pesados para instanciar.
+- **Proxy Remoto:** Oferece um representação local de um objeto real que está em um servidor diferente.
+- **Proxy de Proteção:** Controla o acesso às partes sensíveis de um objeto real.
+- **Proxy Inteligente:** Interpõe ações adicionais quando um objeto é acessado.
+
+### Vantagens
+
+- Ajudar a melhorar o desenpenho ao fazer caching de objetos pesados.
+- Autorizam o acesso a um objeto real, somente se as permissões estiverem corretas.
+- Também facilitam a interação de servidor remotos.
+
+### Proxy / Facade
+
+Oferece um subtitulo para outro objteo a fim de controlar o acesso **vs** Oferece uma interface de subsistemas 
+Um objeto Proxy tem a mesma interface e aramazena referências **vs** Minimiza a comunicaçã e as dependências entre subsistemas
+Atua como intermédiario entre cliente e o objeto encapsulado **vs** Oferece uma interface única e simplificada
