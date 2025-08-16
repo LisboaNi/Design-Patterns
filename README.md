@@ -101,3 +101,16 @@ Usa herança e subclasses para definir o objeto a ser criado **vs** Usa composi�
 <br>
 Usado para criar um produto **vs** Usado para criar famílias de produtos relacionados.
 
+# Facade
+
+- Padrão de Estruturais
+
+Descrevem como objetos e classes podem ser combinados para compor estrturas maiores.
+
+### Tipos Padrão de Estruturais
+
+- **Padrão Adapter:** Adapta uma interface a outra, procura combinar interfaces de classes diferentes conforme as necessidades;
+- **Padrão Bridge:** Desacopla a interface de um objeto de sua implementação para ambos possam trabvalhar de forma indepente;
+- **Padrão Decorator:** Define responsabilidades adicionais para um objeto em tempo de execução;
+- **Padrão Facade:** Oculta as compelixidades da estrtura interna de um objeto oferecendo uma interface ao cliente que ele possa acessar o sistema de forma simplificada.
+
