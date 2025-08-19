@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block head %}
+    <title>Adicionar Produto</title>
+{% end %}
+
+{% block body %}
+    <h3>ADICIONAR NOVO PRODUTO</h3>
+    <form action="/produto/novo" method="POST" autocomplete="off">
+        <div class="mb-3">
+            <label for="nome" class="form-label">Nome</label>
+            <input class="form-control" type="text" name="nome" id="nome" placeholder="Informe o nome do produto" required autofocus>
+        </div>
+        <div class="mb-3">
+            <label for="preco" class="form-label">Preço</label>
+            <input class="form-control" type="text" name="preco" id="preco" placeholder="Informe o nome do preço" required>
+        </div>
+        <div class="mb-3">
+            <button type="submit" class="btn btn-primary mb-3">cadastrar</button>
+        </div>
+    </form>
+
+{% end %}

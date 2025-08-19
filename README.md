@@ -163,3 +163,18 @@ Método declarado na classe abstrata, que em geral, rece uma implementação def
 "Não ligue para nós, nós ligaremos para você"
 
 No caso uma classe de alto nível irá chamar caso necessário uma classe de nível mais baixa.
+
+# Model-View-Controller (MVC)
+
+Padrão de Projetos Compostos
+
+Combina dois ou mais padrões em uma solução que resolve um problema ou genérico.
+
+Separa em três partes:
+- Model (Modelo) Representa os dados e a lógica
+- View (Visão) Apresentação dos dados
+- Controller (Controlador) è a ponte entre os dois
+
+
+
+
