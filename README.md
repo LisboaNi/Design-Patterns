@@ -151,3 +151,15 @@ Um objeto mantém uma lista de dependencias de modo qye este objeto possa notifi
 
 - **Pull**: Envolve o priemiro passo obter os dados e notificar e o segundo o observador obter os dados necessários.
 - **Push**: Sempre está enviando, adequado somente os dados necessarios é enviado.
+
+# Templade Method
+
+Ajuda a edefinir ou personalizar os passos do algoritmo adiando a implementação de alguns desses passos para as subclasses.
+
+### hooks
+Método declarado na classe abstrata, que em geral, rece uma implementação default.
+
+### Principio Hollywood
+"Não ligue para nós, nós ligaremos para você"
+
+No caso uma classe de alto nível irá chamar caso necessário uma classe de nível mais baixa.
